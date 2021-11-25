@@ -1,7 +1,3 @@
-# Frontend Mentor - Order summary card solution
-
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -16,7 +12,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -24,7 +19,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- See hover states for interactive elements
+- See two dice images
+- Should be able to refresh the page and see a two rolled dice.
+
 
 ### Screenshot
 
@@ -45,16 +42,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+- Create an external javascript file
+- Add Dice images
+- Create a random number
+- Change the <img> to a random dice
+- Change both image elements
+- Change the title so it displays a winner
+
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Javascript
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
