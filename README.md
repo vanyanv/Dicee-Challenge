@@ -12,7 +12,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### The challenge
@@ -22,14 +21,13 @@ Users should be able to:
 - See two dice images
 - Should be able to refresh the page and see a two rolled dice.
 
-
 ### Screenshot
 
 ![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -42,13 +40,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-- Create an external javascript file
-- Add Dice images
-- Create a random number
-- Change the <img> to a random dice
-- Change both image elements
-- Change the title so it displays a winner
-
+-[x] Create an external javascript file
+-[] Add Dice images
+-[] Create a random number
+-[] Change the `<img>` to a random dice
+-[] Change both image elements
+-[] Change the title so it displays a winner
 
 ### Built with
 
@@ -67,16 +64,16 @@ Use this section to recap over some of your major learnings while working throug
 How to add an external js file into HTML:
 
 ```html
-<script src= "URL"></script>
+<script src="URL"></script>
 ```
+
 If you want to have the external JS file to be run at the end then we add defer to the script:
 
 ```html
-<script src= "URL" defer></script>
+<script src="URL" defer></script>
 ```
+
 A script tag with defer waits until the entire parser is done and then runs all scripts marked with defer in the order they are encountered.
-
-
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
@@ -98,7 +95,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Vardan Vanyan](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [chopsquad](https://github.com/chopsquad)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
