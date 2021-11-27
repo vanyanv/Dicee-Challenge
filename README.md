@@ -41,9 +41,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 - [x] Create an external javascript file
-- [ ] Add Dice images
+- [x] Add Dice images
 - [ ] Create a random number
-- [x] Change the `<img>` to a random dice
+- [ ] Change the `<img>` to a random dice
 - [ ] Change both image elements
 - [ ] Change the title so it displays a winner
 
@@ -71,6 +71,7 @@ Use this section to recap over some of your major learnings while working throug
 
 ```html
 <script src="URL" defer></script>
+<!-- A script tag with defer waits until the entire parser is done and then runs all scripts marked with defer in the order they are encountered. -->
 ```
 
 -How to add an external image to html
@@ -84,7 +85,14 @@ Use this section to recap over some of your major learnings while working throug
 
 -_the alt attribute provides alternate text to display when an image is not loaded. It also used to support accessibility_.
 
-A script tag with defer waits until the entire parser is done and then runs all scripts marked with defer in the order they are encountered.
+-How to get a random number between two integer while also including those integers.
+
+```js
+Math.floor(Math.random() * (max - min + 1) + min);
+//The maximum is inclusive and the minimum is inclusive
+// math.floor rounds down towards negative infinity
+// math.ceil rounds up towards positive infinity
+```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
@@ -100,6 +108,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Resource 1](https://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts) - This helped me get a better understanding of when and where scripts should be used and how high or low they are in loading priority.
 - [Resource 2](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) - Documentation on the use of alt text and the benefits of using it to help with accessibility.
+- [Resource 3](https://stackoverflow.com/questions/14/difference-between-math-floor-and-math-truncate) - To get a better understanding when to use math. functions.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
