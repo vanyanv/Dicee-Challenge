@@ -40,12 +40,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
--[x] Create an external javascript file
--[] Add Dice images
--[] Create a random number
--[] Change the `<img>` to a random dice
--[] Change both image elements
--[] Change the title so it displays a winner
+- [x] Create an external javascript file
+- [ ] Add Dice images
+- [ ] Create a random number
+- [x] Change the `<img>` to a random dice
+- [ ] Change both image elements
+- [ ] Change the title so it displays a winner
 
 ### Built with
 
@@ -61,17 +61,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-How to add an external js file into HTML:
+-How to add an external js file into HTML:
 
 ```html
 <script src="URL"></script>
 ```
 
-If you want to have the external JS file to be run at the end then we add defer to the script:
+-If you want to have the external JS file to be run at the end then we add defer to the script:
 
 ```html
 <script src="URL" defer></script>
 ```
+
+-How to add an external image to html
+
+```html
+<img
+  src="URL of external image"
+  alt="something you would say when reading the page t someone over the phone"
+/>
+```
+
+-_the alt attribute provides alternate text to display when an image is not loaded. It also used to support accessibility_.
 
 A script tag with defer waits until the entire parser is done and then runs all scripts marked with defer in the order they are encountered.
 
@@ -87,8 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts) - This helped me get a better understanding of when and where scripts should be used and how high or low they are in loading priority.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Resource 1](https://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts) - This helped me get a better understanding of when and where scripts should be used and how high or low they are in loading priority.
+- [Resource 2](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) - Documentation on the use of alt text and the benefits of using it to help with accessibility.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
