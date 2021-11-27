@@ -94,6 +94,17 @@ Math.floor(Math.random() * (max - min + 1) + min);
 // math.ceil rounds up towards positive infinity
 ```
 
+- How to set the attribute using dom manipulation
+
+```js
+//first we using a querySelector to select what we want to change and set it into a variable
+let variable = document.querySelector("What we want to select");
+//using the manipulation attributes we can make the changes happen
+variable.setAttribute(name, value);
+// the name is the name of the attribute whose value is it be changed
+// the value is what we will changing to.
+```
+
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
@@ -109,6 +120,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Resource 1](https://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts) - This helped me get a better understanding of when and where scripts should be used and how high or low they are in loading priority.
 - [Resource 2](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) - Documentation on the use of alt text and the benefits of using it to help with accessibility.
 - [Resource 3](https://stackoverflow.com/questions/14/difference-between-math-floor-and-math-truncate) - To get a better understanding when to use math. functions.
+- [Resource 4](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute) - Using setAttribute and the documentation behind it.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
