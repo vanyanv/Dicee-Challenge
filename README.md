@@ -43,7 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [x] Create an external javascript file
 - [x] Add Dice images
 - [x] Create a random number
-      ![](/images/randomNumber)
+      ![](/images/randomNumber.png)
 - [ ] Change the `<img>` to a random dice
 - [ ] Change both image elements
 - [ ] Change the title so it displays a winner
