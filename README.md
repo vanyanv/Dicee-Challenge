@@ -53,8 +53,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 -How to add an external js file into HTML:
 
 ```html
@@ -99,8 +97,6 @@ variable.setAttribute(name, value);
 // the value is what we will changing to.
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
 - [ ]Add functions for code that is being repeated.
@@ -111,6 +107,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 - [Resource 2](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) - Documentation on the use of alt text and the benefits of using it to help with accessibility.
 - [Resource 3](https://stackoverflow.com/questions/14/difference-between-math-floor-and-math-truncate) - To get a better understanding when to use math. functions.
 - [Resource 4](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute) - Using setAttribute and the documentation behind it.
+- [The Markdown Guide](https://www.markdownguide.org/) important information on how to markdown.
 
 ## Author
 
