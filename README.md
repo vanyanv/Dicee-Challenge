@@ -44,7 +44,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [x] Add Dice images
 - [x] Create a random number
       ![Random Numbers](/images/randomNumber.PNG)
-- [ ] Change the `<img>` to a random dice
+- [x] Change the `<img>` to a random dice
+      ![Random Numbers](/images/p1ImgChange.PNG)
 - [ ] Change both image elements
 - [ ] Change the title so it displays a winner
 
