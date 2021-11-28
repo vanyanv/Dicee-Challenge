@@ -50,10 +50,10 @@ let h1 = document.querySelector("h1");
 
 //determining the winner
 if (randomNumber1 > randomNumber2) {
-  h1.innerHTML = "Player1 Wins!";
+  h1.innerHTML = "Player1 Wins 🏆!";
   console.log("Player1 Wins!");
 } else if (randomNumber1 < randomNumber2) {
-  h1.innerHTML = "Player2 Wins!";
+  h1.innerHTML = "Player2 Wins 🏆!";
   console.log("Player2 Wins!");
 } else {
   h1.innerHTML = "Draw!";
